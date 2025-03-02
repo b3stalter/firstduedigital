@@ -1,0 +1,11 @@
+<nav class="topnav">
+    <img src="assets/images/FDDlogo1.1.PNG" alt="logo" class="logo">
+    <span class="navlinks">
+        <span class="navlink" *ngFor="let link of links">
+            <a [routerLink]="link.path" *ngIf="link.active">{{link.name}}</a>
+        </span>
+
+    </span>
+    <router-outlet />
+
+</nav>
