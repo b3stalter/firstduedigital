@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 
 @Component({
-  selector: 'app-fusion',
+  selector: 'fusion',
   standalone: true,
   imports: [FormsModule, CommonModule],
   templateUrl: './fusion.component.html',

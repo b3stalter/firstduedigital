@@ -8,12 +8,12 @@ import { HomeComponent } from './home/home.component';
 import { FusionComponent } from './fusion/fusion.component';
 
 export const routes: Routes = [
-    { path: 'app-home', component: HomeComponent },
-    { path: 'app-about', component: AboutComponent },
-    { path: 'app-fusion', component: FusionComponent },
-    { path: 'app-contact', component: ContactComponent },
-    { path: 'app-services', component: ServicesComponent },
-    { path: 'app-gallery', component: GalleryComponent },
-    { path: '', redirectTo: '/app-home', pathMatch: 'full' }
+    { path: 'home', component: HomeComponent },
+    { path: 'about', component: AboutComponent },
+    { path: 'fusion', component: FusionComponent },
+    { path: 'contact', component: ContactComponent },
+    { path: 'services', component: ServicesComponent },
+    { path: 'gallery', component: GalleryComponent },
+    { path: '', redirectTo: '/home', pathMatch: 'full' }
 
 ];

@@ -13,12 +13,12 @@ import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/rou
 export class HeaderComponent {
 
   links = [
-    { name: 'Home', path: '/app-home', active: true },
-    { name: 'Fusion', path: '/app-fusion', active: true },
-    { name: 'About', path: '/app-about', active: false },
-    { name: 'Services', path: '/app-services', active: false },
-    { name: 'Gallery', path: '/app-gallery', active: false },
-    { name: 'Contact', path: '/app-contact', active: false },
+    { name: 'Home', path: '/', active: true },
+    { name: 'Fusion', path: '/fusion', active: false },
+    { name: 'About', path: '/about', active: false },
+    { name: 'Services', path: '/services', active: false },
+    { name: 'Gallery', path: '/gallery', active: false },
+    { name: 'Contact', path: '/contact', active: false },
   ];
 
   constructor() {
