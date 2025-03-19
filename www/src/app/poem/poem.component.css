@@ -1,0 +1,21 @@
+span {
+    padding: 50px;
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #ff0000;
+}
+
+.subtitle {
+    font-size: 12px;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 13px;
+}

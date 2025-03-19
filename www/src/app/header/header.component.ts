@@ -14,6 +14,7 @@ export class HeaderComponent {
 
   links = [
     { name: 'Home', path: '/', active: true },
+    { name: 'Poem', path: '/poem', active: true },
     { name: 'Fusion', path: '/fusion', active: false },
     { name: 'About', path: '/about', active: false },
     { name: 'Services', path: '/services', active: false },

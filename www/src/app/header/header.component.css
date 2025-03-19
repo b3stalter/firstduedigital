@@ -23,6 +23,8 @@
     color: red;
     font-family: 'Teko', sans-serif;
     font-weight: bold;
+    min-width: 375px;
+
 }
 
 .t2 {
@@ -65,4 +67,10 @@
 .navlink a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.content {
+    position: relative;
+    left: -20px;
+    top: 150px;
 }
