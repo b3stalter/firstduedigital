@@ -1,8 +1,9 @@
 span {
-    padding: 50px;
+    /* padding: 5vh; */
     color: #ffffff;
     position: relative;
     left: 20px;
+    top: 1vh;
 }
 
 .title {
