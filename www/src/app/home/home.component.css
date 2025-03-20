@@ -9,15 +9,14 @@
     .banner {
         left: -450px;
         top: 25px;
-        clip-path: inset(50px 0px);
+        clip-path: inset(100px 0px);
     }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (min-width: 500px) and (max-width: 999px) {
     .banner {
+        top: -80px;
         left: -450px;
-        top: 25px;
-        clip-path: inset(50px 0px);
     }
 }
 

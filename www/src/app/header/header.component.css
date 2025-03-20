@@ -93,3 +93,30 @@
         left: 0px;
     }
 }
+
+@media screen and (min-width: 500px) and (max-width: 999px) {
+    .logo {
+        height: 65px;
+    }
+
+    .head {
+        left: 70px;
+    }
+
+    .t1 {
+        font-size: 6vw;
+    }
+
+    .t2 {
+        margin: 30px 20px;
+    }
+
+    .navlinks {
+        left: 0px;
+        top: 75px;
+    }
+
+    .topnav {
+        height: 100px;
+    }
+}
