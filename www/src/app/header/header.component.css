@@ -74,3 +74,22 @@
     left: -20px;
     top: 150px;
 }
+
+
+@media screen and (max-width: 499px) {
+    .logo {
+        height: 65px;
+    }
+
+    .head {
+        left: 70px;
+    }
+
+    .t1 {
+        font-size: 12vw;
+    }
+
+    .navlinks {
+        left: 0px;
+    }
+}

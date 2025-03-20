@@ -1,11 +1,24 @@
 .banner {
-    /* width: 110%; */
-    /* height: 100vh; */
     opacity: 75%;
     top: 0px;
     position: fixed;
-    /* left: -20px; */
     clip-path: inset(150px 0px);
+}
+
+@media screen and (max-width: 499px) {
+    .banner {
+        left: -450px;
+        top: 25px;
+        clip-path: inset(50px 0px);
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .banner {
+        left: -450px;
+        top: 25px;
+        clip-path: inset(50px 0px);
+    }
 }
 
 app-poem {
